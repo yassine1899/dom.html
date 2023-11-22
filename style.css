@@ -1,0 +1,64 @@
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 40px;
+}
+.card {
+  padding: 50px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 9px;
+}
+.card-shopping {
+  background-color: gainsboro;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 30px;
+}
+.plus-btn {
+  padding: 9px;
+}
+.minus-btn {
+  padding: 9px;
+}
+.card-bod {
+  text-align: center;
+  padding: 10px;
+}
+.office {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 30px;
+}
+.trash {
+  padding: 9px;
+}
+.heart {
+  padding: 9px;
+}
+.toggleHeart {
+  color: red;
+}
+.price {
+  text-align: center;
+  margin-bottom: 30px;
+}
+img {
+  object-fit: cover;
+}
